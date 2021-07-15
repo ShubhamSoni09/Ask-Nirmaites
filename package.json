@@ -1,0 +1,12 @@
+{
+  "name": "qoura_for_students",
+  "version": "1.0.0",
+  "description": "A full-stack web application clone of Quora, where users can log-in using email, ask questions on a particular topic and other users can answer the questions along with edit and delete operations.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "samaksh Mittal",
+  "license": "ISC"
+}
