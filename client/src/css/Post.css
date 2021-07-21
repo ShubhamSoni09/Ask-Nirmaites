@@ -1,0 +1,128 @@
+.post{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    background-color:white;
+    border: 1px solid lightgray;
+    margin-top:10px;
+    border-radius: 8px;
+   
+}
+
+.post_info{
+    display:flex;
+    align-items:center;
+}
+
+.post_info > h5{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size:13px;
+}
+
+.post_info > h5:hover{
+    text-decoration:underline;
+}
+
+.post_question{
+    margin-top:10px;
+    font-size:large;
+    font-weight: bold;
+    color:rgb(48, 47, 47);
+    text-align: left;
+    cursor:pointer;
+    display:flex;
+
+}
+.post_info > small{
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.post_info > h5{
+    font-size:medium;
+}
+
+.post_info > img{
+    border-radius: 8px;
+    object-fit:contain;
+    width:100%;
+    cursor:pointer;
+}
+
+
+.post_question .MuiButton-root{
+    color:#fff;
+    cursor: pointer;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-transform: inherit;
+    border-radius: 15px;
+    background-color:#00C2CB;
+    margin-left:auto;
+    margin-bottom: 10px;
+}
+
+.post_question .MuiButton-root:hover{
+    color:#fff;
+    background-color:#03d8e4;
+}
+
+.post_body{
+    display:flex;
+    flex-direction: column;
+}
+
+.post_body > .post_question > p:hover{
+    text-decoration:underline;
+}
+
+.post_footer{
+    display:flex;
+    align-items:center;
+    margin-top:10px;
+    cursor:pointer;
+    color:rgb(29, 51, 51);
+    background-color:lightgray;
+    padding:5px;
+    border-radius: 8px;
+}
+
+.post_footerAction{
+    display:flex;
+    justify-content:space-around;
+    border-radius: 33px;
+    padding:5px;
+    background-color:rgb(136, 245, 136);
+    align-items:center;
+}
+
+.post_footerAction > .MuiSvgIcon-root{
+    color:gray;
+    margin-right: 40px;
+    cursor:pointer;
+}
+
+.post_footerAction > .MuiSvgIcon-root:hover{
+    color:#8f1f19;
+    
+}
+
+.post_footerLeft{
+    margin-left:auto;
+    align-items:center;
+    margin-top:10px;
+    margin-right:5px;
+}
+
+.post_footerLeft > .MuiSvgIcon-root{
+    color:gray;
+    margin-right: 40px;
+    cursor:pointer;
+}
+
+.post_footerLeft > .MuiSvgIcon-root:hover{
+    color:#8f1f19;
+   
+}
+

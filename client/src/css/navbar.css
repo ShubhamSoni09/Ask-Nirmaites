@@ -55,6 +55,7 @@
 }
 .remainder .avatar{
     cursor: pointer;
+    
 }
 .remainder .MuiSvgIcon-root{
     font-size: xx-large;
@@ -78,7 +79,7 @@
 
 .remainder .MuiButton-root:hover{
     color:#fff;
-    background-color:#00C2CB;
+    background-color:#03d8e4;
     
 }
 

@@ -8,7 +8,7 @@
     align-items:center;
     padding:10px;
     cursor:pointer;
-    background-color:bisque;
+    background-color:#fff;
 }
 
 .sidebarOption:hover{
@@ -31,9 +31,15 @@
 .sidebarOption > .MuiSvgIcon-root{
     color:gray;
     font-size:medium;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .sidebarOption > .text{
-    margin-left: 23px;
+    margin-left: 18px;
 }
+
+.sidebarOptions{
+    border-radius: 8px;
+   
+}
+
