@@ -46,7 +46,7 @@
     color: rgb(49,49,49);
 }
 .searchbar .MuiSvgIcon-root{
-    color:#00C2CB ;
+    color:gray ;
 }
 .remainder{
     display: flex;
@@ -64,9 +64,21 @@
 .remainder .MuiSvgIcon-root:hover{
     color:#00C2CB; 
 }
-.remainder .MuiSvgButton-root{
+.remainder .MuiButton-root{
     color:#fff;
     margin-left:30px;
     cursor: pointer;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-transform: inherit;
+    border-radius: 15px;
     background-color:#00C2CB;
+    margin-left:10px;
 }
+
+.remainder .MuiButton-root:hover{
+    color:#fff;
+    background-color:#00C2CB;
+    
+}
+
