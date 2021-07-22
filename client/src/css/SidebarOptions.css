@@ -1,6 +1,7 @@
 .sidebarOptions{
     display:flex;
     flex-direction: column;
+    border-radius: 8px;
 }
 
 .sidebarOption{
@@ -43,3 +44,6 @@
    
 }
 
+.sidebarOptionsList{
+    border-radius: 8px;
+}

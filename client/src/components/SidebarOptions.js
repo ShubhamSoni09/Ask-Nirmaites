@@ -4,6 +4,7 @@ import AddIcon from '@material-ui/icons/Add';
 
 function SidebarOptions(){
     return (
+    <div className="sidebarOptionsList">
       <div className="sidebarOptions">
         <div className="sidebarOption">
             <img 
@@ -89,6 +90,7 @@ function SidebarOptions(){
             <AddIcon />
             <p className="text">Discover Spaces</p>
         </div>
+      </div>
       </div>
     );
 }

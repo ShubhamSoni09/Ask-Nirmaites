@@ -5,6 +5,8 @@ import '../css/Quora.css'
 import '../css/Feed.css'
 import Sidebar from './sidebar'
 import Post from './Post'
+import Widget from './Widget'
+
 function Quora() {
     return (
         <div className='quora'>
@@ -12,6 +14,7 @@ function Quora() {
             <div className='quora_content'>
                 <Sidebar/>
                 <Feed/>
+                <Widget/>
             </div>
 
         </div>
