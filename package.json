@@ -10,6 +10,8 @@
   "author": "samaksh Mittal",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
@@ -20,6 +22,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.2",
     "morgan": "^1.10.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "react-modal": "^3.14.3"
   }
 }
