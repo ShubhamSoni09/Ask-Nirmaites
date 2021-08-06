@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
-
+import {auth, provider} from "./Auth.js";
 
 function Login() {
   const [email, setEmail] = useState("");
