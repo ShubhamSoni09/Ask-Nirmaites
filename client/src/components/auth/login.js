@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./Login.css";
+import "./login.css";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
-import {auth, provider} from "./Auth.js";
+import {auth, provider} from "../firebase.js";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -129,7 +129,7 @@ function Login() {
           <p>Privacy</p>
           <p>Terms</p>
           <p>Contact</p>
-          <p>&copy; Quora Fake Inc. 2021</p>
+          <p>&copy; Ask Nirmaites! 2021</p>
         </div>
       </div>
     </div>
