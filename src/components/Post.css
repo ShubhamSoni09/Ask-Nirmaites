@@ -1,3 +1,6 @@
+body{
+  overflow-x:hidden;
+}
 .post {
   display: flex;
   flex-direction: column;
