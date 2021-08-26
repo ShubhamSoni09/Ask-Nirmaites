@@ -6,4 +6,4 @@ Ask Nirmaites is a full-stack web application, where students can login using em
 
 Live link: www.asknirmaites.tech
 
-Tech Stack: React, Firebase, Redux
+Tech Stack: React, Firebase, Redux, 
