@@ -1,0 +1,12 @@
+.sidebar {
+  flex:0.2;
+  margin-left:15px;
+  display:flex;
+  flex-direction: column;
+  padding:5px;
+  margin-right:10px;
+  border: 1px solid lightgray;
+  border-radius:5px;
+  max-height: 75vh;
+  background-color:white;
+}
