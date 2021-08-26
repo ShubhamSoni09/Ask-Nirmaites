@@ -1,4 +1,4 @@
-Ask-Nirmaites
+# Ask-Nirmaites
 
 The covid pandemic has brought a gap in communication, especially between the junior and senior students of the colleges. Hence here comes Ask-Nirmaites which is specially curated for the 1st, 2nd and 3rd year students of Nirma University. 
 
