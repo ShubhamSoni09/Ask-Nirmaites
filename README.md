@@ -4,6 +4,6 @@ The covid pandemic has brought a gap in communication, especially between the ju
 
 Ask Nirmaites is a full-stack web application, where students can login using email, ask questions or doubts on a particular topic and other users can answer the questions along with edit operations.
 
-Live link: https://nifty-heyrovsky-036eaf.netlify.app/
+Live link: www.asknirmaites.tech
 
 Tech Stack: React, Firebase, Redux
