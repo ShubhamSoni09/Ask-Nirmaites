@@ -1,11 +1,9 @@
+Ask-Nirmaites
 
-# Ask-Nirmaites
+The covid pandemic has brought a gap in communication, especially between the junior and senior students of the colleges. Hence here comes Ask-Nirmaites which is specially curated for the 1st, 2nd and 3rd year students of Nirma University. 
 
-A full-stack web application clone of Quora, where students can login using email,
-ask questions or doubts on a particular topic and other users can answer the
-questions along with edit and delete operations.
+Ask Nirmaites is a full-stack web application, where students can login using email, ask questions or doubts on a particular topic and other users can answer the questions along with edit operations.
 
+Live link coming soon!
 
-### Technology Stack
- -  MERN(MongoDB,Express,React,Node) 
-
+Tech Stack: React, Firebase, Redux
