@@ -73,7 +73,7 @@ function Login() {
             <div className="login__authDesc">
               <p>
                 <span style={{ color: "blue", cursor: "pointer" }}>
-                  Sign Up With Email
+                  Only nirmauni.ac.in id will be allowed.
                 </span>
                 . By continuing you indicate that you have read and agree to
                 Ask Nirmaites'
