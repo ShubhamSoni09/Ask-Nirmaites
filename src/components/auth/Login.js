@@ -60,7 +60,7 @@ function Login() {
                 src="https://media-public.canva.com/MADnBiAubGA/3/screen.svg"
                 alt=""
               />
-              <p onClick={signIn}>Continue With Google</p>
+              <p onClick={signIn}>Continue With nirmauni id</p>
             </div>
             <div className="login__authOption">
               <img
