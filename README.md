@@ -1,9 +1,7 @@
-# Ask-Nirmaites
+The COVID-19 pandemic created a disconnect between junior and senior students at Nirma University, leaving many first, second, and third-year students with unanswered questions and limited guidance. That’s where Ask-Nirmaites comes in — a platform thoughtfully built to bridge that gap.
 
-The covid pandemic has brought a gap in communication, especially between the junior and senior students of the colleges. Hence here comes Ask-Nirmaites which is specially curated for the 1st, 2nd and 3rd year students of Nirma University. 
+Ask-Nirmaites is a full-stack web application that allows students to log in using their Nirma University email, post questions on academic or campus-related topics, and get answers from fellow students. Users can also edit or update existing answers, creating a dynamic, evolving knowledge base for the entire community.
 
-Ask Nirmaites is a full-stack web application, where students can login using email, ask questions or doubts on a particular topic and other users can answer the questions along with edit operations.
+🔗 Live Demo: www.asknirmaites.tech (Currently supports login via Nirma ID only)
 
-Live link: www.asknirmaites.tech (login only allowed using nirma id for now)
-
-Tech Stack: React, Firebase, Redux
+🛠️ Tech Stack: React | Firebase | Redux
