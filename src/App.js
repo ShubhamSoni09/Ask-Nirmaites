@@ -5,6 +5,7 @@ import Login from "./components/auth/Login";
 import Quora from "./components/Quora";
 import { login, logout, selectUser } from "./features/userSlice";
 import { auth } from "./firebase";
+import { isNirmaEmail, NIRMA_ONLY_MESSAGE } from "./utils/auth";
 
 function App() {
   const user = useSelector(selectUser);
@@ -12,6 +13,12 @@ function App() {
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
       if (authUser) {
+        if (!isNirmaEmail(authUser.email)) {
+          window.alert(NIRMA_ONLY_MESSAGE);
+          auth.signOut();
+          return;
+        }
+
         dispatch(
           login({
             uid: authUser.uid,
@@ -23,7 +30,6 @@ function App() {
       } else {
         dispatch(logout());
       }
-      console.log(authUser);
     });
   }, [dispatch]);
   return <div className="App">{user ? <Quora /> : <Login />}</div>;
